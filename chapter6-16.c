@@ -6,7 +6,7 @@ int main(void)
 	float da_zijin, de_zijin;
 	int benjin = 100, n = 0;
 
-    da_zijin = 100;
+        da_zijin = 100;
 	de_zijin = 100;
 	do
 	{
@@ -17,4 +17,4 @@ int main(void)
 	printf("%d   %f    %f", n, da_zijin, de_zijin);
 	
 	return 0; 
-}
+} //last two！！！
