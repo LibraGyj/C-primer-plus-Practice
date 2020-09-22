@@ -7,7 +7,7 @@ int main(void)
 	
     for(s = 0; s <= S; s++)
     {
-    	printf("ÇëÊäÈëµÚ%d¸öÊý×Ö:\n", s+1);
+    	printf("请输入第%d个数字:\n", s+1);
     	scanf("%d", &shuru[s]);
 	}
 	for(z = 0,s = 0; z <= Z; z++, s++)
