@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <math.h>
 int main(void)
 {
 	const float danli = 0.1, fuli = 0.05;
