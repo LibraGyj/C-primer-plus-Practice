@@ -9,7 +9,7 @@ int main (void)
 	int count_linebreak = 0;
 	int count_others = 0;
 	
-	printf("ÇëÊäÈëÒ»¶Î»°£¬²¢ÒÔ#½áÎ²£º\n");
+	printf("è¯·è¾“å…¥ä¸€æ®µè¯ï¼Œå¹¶ä»¥#ç»“å°¾ï¼š\n");
 	
 	while((ch = getchar()) != '#')
 	{
@@ -20,8 +20,8 @@ int main (void)
 		else
 		   count_others = count_others + 1;	
 	}
-	printf("Õâ¶Î»°ÖĞ£¬¿Õ¸ñµÄ¸öÊıÊÇ%d,×ªĞĞ·ûµÄ¸öÊıÊÇ%d,ÆäËû×Ö·ûµÄ¸öÊıÊÇ%d¡£\n", count_space, count_linebreak, count_others);
+	printf("è¿™æ®µè¯ä¸­ï¼Œç©ºæ ¼çš„ä¸ªæ•°æ˜¯%d,è½¬è¡Œç¬¦çš„ä¸ªæ•°æ˜¯%d,å…¶ä»–å­—ç¬¦çš„ä¸ªæ•°æ˜¯%dã€‚\n", count_space, count_linebreak, count_others);
 	
 	return 0;
-}
+}                  //çºªå¿µæ—¶éš”ä¸€å‘¨é‡å›Cè¯­è¨€â•®(â•¯â–½â•°)â•­
 
