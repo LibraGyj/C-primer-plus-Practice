@@ -9,7 +9,7 @@ int main(void)
 	int hours, salary, tax, income, n;
 	float m;
 	
-	help:printf("ÇëÊäÈë1~5µÄÊı×Ö¡£\n");
+	help:printf("è¯·è¾“å…¥1~5çš„æ•°å­—ã€‚\n");
 	
 	scanf("%d", &n);
 	switch (n)
@@ -27,11 +27,11 @@ int main(void)
 		    m = 11.20;
 			break;
 		default:
-		    goto help;
+		    goto help;   //gotoè¯­å¥è¿˜æŒºå¥½ç©çš„ 
 		    break;
 	}
 	
-	printf("ÇëÊäÈëÒ»ÖÜ¹¤×÷Ê±¼ä(# to quit)£º\n");
+	printf("è¯·è¾“å…¥ä¸€å‘¨å·¥ä½œæ—¶é—´(# to quit)ï¼š\n");
 	
 	while(scanf("%d", &hours) == 1)
 	{
@@ -40,29 +40,29 @@ int main(void)
 		
 		else if(hours <= 40)
 		{
-			salary = m * hours;
+		    salary = m * hours;
 		    if(salary <= 300)
 		    {
 		    	tax = salary * rate1;
-			}
+		    }
 		   
 		    else
 		    tax = m * 300 * rate1 + (salary - 300) * rate2;
 		}
 
-        else
-        {
-        	salary = m * salary + (hours - 40) * 15;
-	        if(salary <= 450)
-	        {
-	        	tax = 45  + (salary - 300) * rate2;
-			}
+                else
+               {
+        	    salary = m * salary + (hours - 40) * 15;
+	            if(salary <= 450)
+	            {
+	                tax = 45  + (salary - 300) * rate2;
+	            }
 
-            else
-		    tax = 75 + (salary - 450) * rate3;	
+                    else
+		        tax = 75 + (salary - 450) * rate3;	
 		}
         income = salary - tax;
-        printf("¹¤×Ê×Ü¶îÎª%d£¬Ë°½ğÎª%d£¬¾»ÊÕÈëÎª%d¡£\n", salary, tax, income);
+        printf("å·¥èµ„æ€»é¢ä¸º%dï¼Œç¨é‡‘ä¸º%dï¼Œå‡€æ”¶å…¥ä¸º%dã€‚\n", salary, tax, income);
 	}
 	
 	return 0;
