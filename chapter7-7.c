@@ -7,7 +7,7 @@ int main(void)
 {
 	int hours, salary, tax, income;
 	
-	printf("������һ�ܹ���ʱ��(# to quit)��\n");
+	printf("请输入一周工作时间(# to quit)：\n");
 	
 	while(scanf("%d", &hours) == 1)
 	{
@@ -38,8 +38,8 @@ int main(void)
 		    tax = 75 + (salary - 450) * rate3;	
 		}
         income = salary - tax;
-        printf("�����ܶ�Ϊ%d��˰��Ϊ%d��������Ϊ%d��\n", salary, tax, income);
+        printf("工资总额为%d，税金为%d，净收入为%d。\n", salary, tax, income);
 	}
 	
 	return 0;
-}
+}  //如何创造更大的价值，怎么样能让自己拥有更大的价值，如何高度自律，高度专注？
