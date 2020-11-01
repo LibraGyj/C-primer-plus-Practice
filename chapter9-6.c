@@ -27,7 +27,7 @@ void interchange (double *m, double *n, double *t)
 		}
 		if (*t < *n)
 		{
-			temp = *m;
+		    temp = *m;
 		    *m = *t;
 		    *t = temp;
 		}
@@ -45,10 +45,10 @@ void interchange (double *m, double *n, double *t)
 	{
 		if (*t < *m)
 	    {
-	        temp = *t;
+	            temp = *t;
 		    *t = *n;
 		    *n = temp;
-            temp = *m;
+                    temp = *m;
 		    *m = *n;
 		    *n = temp;
 		}
