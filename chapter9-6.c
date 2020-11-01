@@ -1,3 +1,4 @@
+//è¿™é“é¢˜æ˜¯æœ‰æ›´ç®€æ´çš„è§£æ³•çš„ ä½†æˆ‘ç°åœ¨ä¸æƒ³å†æƒ³äº† å•Š ~~~~
 #include <stdio.h>
 
 void interchange (double *m, double *n, double *t);
@@ -5,10 +6,10 @@ void interchange (double *m, double *n, double *t);
 int main(void)
 {
 	double x, y, z;
-	printf("ÇëÊäÈë3¸öÊı×Öx¡¢y¡¢z£º\n");
+	printf("è¯·è¾“å…¥3ä¸ªæ•°å­—xã€yã€zï¼š\n");
 	scanf("%lf %lf %lf", &x, &y, &z);
 	interchange (&x, &y, &z);
-	printf("°´´óĞ¡Ë³ĞòÅÅÁĞ3¸öÊı×ÖÎª%lf,%lfºÍ%lf£º\n", x, y, z);
+	printf("æŒ‰å¤§å°é¡ºåºæ’åˆ—3ä¸ªæ•°å­—ä¸º%lf,%lfå’Œ%lfï¼š\n", x, y, z);
 	
 	return 0;
 }
