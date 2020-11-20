@@ -62,4 +62,4 @@ int main (void)
 	printf("总共费用为%.2f元。\n", sum + trans - discount); 
 	
 	return 0;
-}  //第七章结束了，开始新的学习，目前我感觉编程最重要的是你的思维，语言反而次之了  good nighe~
+}  //第七章结束了，开始新的学习，目前我感觉编程最重要的是你的思维，语言反而次之了  good night~
