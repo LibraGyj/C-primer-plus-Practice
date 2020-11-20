@@ -16,12 +16,12 @@ int main (void)
 	
 	copy_arr(target1, source, 5);
 	show(target1, 5);
-    copy_ptr(target2, source, 5);
-    show(target2, 5);
-    copy_ptrs(target3, source, source + 5);
-    show(target3, 5);
+        copy_ptr(target2, source, 5);
+        show(target2, 5);
+        copy_ptrs(target3, source, source + 5);
+        show(target3, 5);
     
-    return 0;
+        return 0;
 }
 
 void copy_arr(double target[],double source[], int n)
@@ -53,7 +53,7 @@ void show(double anything[], int n)
 	int i;
 	
 	for(i = 0; i < n; i++)
-		printf("%.1lf   ", anything[i]);
+	    printf("%.1lf   ", anything[i]);
 	
 	printf("\n"); 
 }
